@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@layer components {
+  .--body-bg {
+    background-color: hsl(217, 28%, 15%);
+  }
+  .nav-link {
+    @apply text-zinc-300;
+  }
+  .nav-link:hover {
+    @apply text-white underline duration-1000 ease-in-out;
+  }
+  .mobile-bg {
+    @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-position-[center_bottom_1rem] bg-no-repeat;
+  }
+}
