@@ -11,6 +11,6 @@
     @apply text-white underline duration-1000 ease-in-out;
   }
   .mobile-bg {
-    @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-position-[center_bottom_1rem] bg-no-repeat;
+    @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-position-[bottom_-1rem] bg-no-repeat;
   }
 }
