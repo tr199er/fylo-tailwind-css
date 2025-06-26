@@ -5,12 +5,33 @@
     background-color: hsl(217, 28%, 15%);
   }
   .nav-link {
-    @apply text-zinc-300;
+    @apply text-zinc-300 sm:text-[12.5px] md:text-[14px];
   }
   .nav-link:hover {
     @apply text-white underline duration-1000 ease-in-out;
   }
   .mobile-bg {
-    @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-position-[bottom_-1rem] bg-no-repeat;
+    @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-bottom bg-no-repeat;
   }
+}
+.btn-sty {
+  background-color: hsl(198, 60%, 50%);
+  @apply mt-2 rounded-full px-20 py-2.5;
+}
+.btn-sty:hover {
+  background-color: hsl(176, 68%, 64%);
+}
+
+.main-bg {
+  background-color: hsl(218, 28%, 13%);
+}
+.features-card {
+  @apply mb-16 flex flex-col items-center justify-center space-y-2 text-center;
+}
+.img-rounded {
+  @apply w-10 rounded-full;
+}
+
+.--headers {
+  @apply font-[Raleway] text-[22px] font-bold;
 }

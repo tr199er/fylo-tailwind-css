@@ -14,11 +14,11 @@
   <body class="--body-bg text-white">
     <!-- navbar-->
 
-    <nav class="flex items-center justify-between p-8">
-      <img class="w-30" src="./images/logo.svg" alt="" />
+    <nav class="container flex items-center justify-between p-5">
+      <img class="w-25" src="./images/logo.svg" alt="" />
 
       <!-- links -->
-      <div class="flex space-x-8">
+      <div class="flex space-x-5">
         <a class="nav-link" href="#">Features</a>
         <a class="nav-link" href="#">Team</a>
         <a class="nav-link" href="#">Sign In</a>
@@ -27,49 +27,49 @@
 
     <!-- intro section -->
     <section
-      class="mobile-bg mt-10 flex flex-col items-center justify-center space-y-4 p-6 text-center"
+      class="mobile-bg mt-7 flex flex-col items-center justify-center space-y-4 p-5 text-center"
     >
-      <img src="./images/illustration-intro.png" alt="" class="w-[75%]" />
-      <h1 class="font-[Raleway] text-3xl font-bold md:text-4xl lg:text-5xl">
+      <img src="./images/illustration-intro.png" alt="" class="w-[90%]" />
+      <h1 class="--headers">
         All your files in one secure location, Accessible anywhere.
       </h1>
-      <p class="font-[Open Sans] font-[16px]">
+      <p class="font-[Open Sans] text-[15px]">
         fylo store all your most important files in one location. Access them
         whereever you need them, share and collaborate with friends, family and
         co-workers.
       </p>
-      <button>get started</button>
+      <button class="btn-sty">Get started</button>
     </section>
 
     <!-- Features section -->
-    <section>
-      <div>
-        <img src="./images/icon-access-anywhere.svg" alt="" />
-        <h2>Access your files, anywhere</h2>
+    <section class="main-bg flex flex-col items-center justify-center p-6">
+      <div class="features-card">
+        <img class="mb-4" src="./images/icon-access-anywhere.svg" alt="" />
+        <h2 class="--headers my-2">Access your files, anywhere</h2>
         <p>
           The ability to use a smartphone, tablet, or computer to access your
           account means your files follow you everywhere.
         </p>
       </div>
-      <div>
-        <img src="./images/icon-security.svg" alt="" />
-        <h2>Security you can trust</h2>
+      <div class="features-card">
+        <img class="mb-4" src="./images/icon-security.svg" alt="" />
+        <h2 class="--headers my-2">Security you can trust</h2>
         <p>
           2-factor authentication and user-controlled encryption are just a
           couple of the security features we allow to help secure your files.
         </p>
       </div>
-      <div>
-        <img src="./images/icon-collaboration.svg" alt="" />
-        <h2>Real-time collaboration</h2>
+      <div class="features-card">
+        <img class="mb-4" src="./images/icon-collaboration.svg" alt="" />
+        <h2 class="--headers my-2">Real-time collaboration</h2>
         <p>
           securely share files and folders with friends,family and coleagues lor
           iie collaboration.email attachments required.
         </p>
       </div>
-      <div>
-        <img src="./images/icon-any-file.svg" alt="" />
-        <h2>Store any type of file</h2>
+      <div class="features-card">
+        <img class="mb-4" src="./images/icon-any-file.svg" alt="" />
+        <h2 class="--headers my-2">Store any type of file</h2>
         <p>
           whether you're sharing holidays photos or work documents fylo has you
           covered allowing for all files types to be securely stored and shared.
@@ -78,10 +78,12 @@
     </section>
 
     <!-- productive section -->
-    <section>
+    <section
+      class="main-bg flex flex-col items-center space-y-12 p-6 text-center"
+    >
       <img src="./images/illustration-stay-productive.png" alt="" />
       <div>
-        <h2>Stay productive, wherever you are</h2>
+        <h2 class="--headers my-2">Stay productive, wherever you are</h2>
         <p>
           Never let location be an issue when accessing your files. fylo has you
           covered for all of your file storage needs.
@@ -94,43 +96,55 @@
     </section>
 
     <!-- team section -->
-    <section>
-      <div>
+    <section class="main-bg flex flex-col items-start space-y-12 p-6 text-left">
+      <div class="--body-bg flex flex-col space-y-5 p-6">
         <p>
           Fylo has improved our team productivity by an order of magnitude.
           Since making the switch our team has become a well-oiled collaboration
           machine
         </p>
-        <div>
-          <img src="./images/profile-1.jpg" alt="Founder's image" />
+        <div class="flex items-start justify-start space-x-4">
+          <img
+            class="img-rounded"
+            src="./images/profile-1.jpg"
+            alt="Founder's image"
+          />
           <div>
-            <h3>Satish Patel</h3>
-            <p>Founder and CEO,Huddle</p>
+            <h3 class="--headers">Satish Patel</h3>
+            <p class="font-[Open Sans] text-[12px]">Founder and CEO,Huddle</p>
           </div>
         </div>
       </div>
-      <div>
+      <div class="--body-bg flex flex-col space-y-5 p-6">
         <p>
           Fylo has improved our team productivity by an order of magnitude.
           Since making the switch our team has become a well-oiled collaboration
           machine
         </p>
-        <div>
-          <img src="./images/profile-2.jpg" alt="" />
+        <div class="flex items-start justify-start space-x-4">
+          <img
+            class="img-rounded"
+            src="./images/profile-2.jpg"
+            alt="Founder's image"
+          />
           <div>
             <h3>Bruce McKenzie</h3>
             <p>Founder and CEO,Huddle</p>
           </div>
         </div>
       </div>
-      <div>
+      <div class="--body-bg flex flex-col space-y-6 p-6">
         <p>
           Fylo has improved our team productivity by an order of magnitude.
           Since making the switch our team has become a well-oiled collaboration
           machine
         </p>
-        <div>
-          <img src="./images/profile-3.jpg" alt="" />
+        <div class="flex justify-start space-x-4">
+          <img
+            class="img-rounded"
+            src="./images/profile-3.jpg"
+            alt="Founder's image"
+          />
           <div>
             <h3>Iva Boyd</h3>
             <p>Founder and CEO,Huddle</p>
@@ -140,7 +154,7 @@
     </section>
 
     <!-- newsletter section -->
-    <div>
+    <div class="--body-bg w-80% shadow">
       <h3>Get early access today</h3>
       <p>
         It only takes a minute to sign up and our free starter tier is extremely
