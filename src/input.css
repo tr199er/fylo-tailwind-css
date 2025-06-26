@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @layer components {
+
   .--body-bg {
     background-color: hsl(217, 28%, 15%);
   }
@@ -13,25 +14,29 @@
   .mobile-bg {
     @apply bg-[url(/images/bg-curvy-mobile.svg)] bg-contain bg-bottom bg-no-repeat;
   }
-}
-.btn-sty {
+  .btn-sty {
   background-color: hsl(198, 60%, 50%);
   @apply mt-2 rounded-full px-20 py-2.5;
-}
-.btn-sty:hover {
-  background-color: hsl(176, 68%, 64%);
-}
+  }
+  .btn-sty:hover {
+    background-color: hsl(176, 68%, 64%);
+  }
 
-.main-bg {
-  background-color: hsl(218, 28%, 13%);
-}
-.features-card {
-  @apply mb-16 flex flex-col items-center justify-center space-y-2 text-center;
-}
-.img-rounded {
-  @apply w-10 rounded-full;
-}
+  .main-bg {
+    background-color: hsl(218, 28%, 13%);
+  }
+  .features-card {
+    @apply mb-18 flex flex-col items-center justify-center text-center;
+  }
+  .img-rounded {
+    @apply w-10 rounded-full;
+  }
 
-.--headers {
-  @apply font-[Raleway] text-[22px] font-bold;
+  .--headers {
+    @apply font-[Raleway] text-[22px] font-bold;
+  }
+  .custom-link{
+    color:hsl(198, 60%, 50%) !important ;
+  }
+
 }
